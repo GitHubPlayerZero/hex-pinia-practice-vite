@@ -1,35 +1,18 @@
-# hex-pinia-practice-vite
+## 簡介
+練習 Pinia。
+- Vite + Vue 3 + Pinia。
+- Options API、Composition API 均有練習。
 
-This template should help get you started developing with Vue 3 in Vite.
+## 基本練習
+- Options API
+[Page](http://localhost:5173/hex-pinia-practice-vite/about)｜[Repo](https://github.com/GitHubPlayerZero/hex-pinia-practice-vite/blob/main/src/views/AboutView.vue)
 
-## Recommended IDE Setup
+- Composition API
+[Page](http://localhost:5173/hex-pinia-practice-vite/about-composition)｜[Repo](https://github.com/GitHubPlayerZero/hex-pinia-practice-vite/blob/main/src/views/AboutComposition.vue)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 購物車練習
+- Options API
+[Page](https://githubplayerzero.github.io/hex-pinia-practice-vite/sweet-options)｜[Repo](https://github.com/GitHubPlayerZero/hex-pinia-practice-vite/blob/main/src/views/SweetOptions.vue)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- Composition API
+[Page](https://githubplayerzero.github.io/hex-pinia-practice-vite/sweet-composition)｜[Repo](https://github.com/GitHubPlayerZero/hex-pinia-practice-vite/blob/main/src/views/SweetComposition.vue)

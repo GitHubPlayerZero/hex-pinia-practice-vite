@@ -1,4 +1,7 @@
 <template>
+  <h2>甜點購物（Options）</h2>
+  <br />
+  
   <Navbar />
   <Cart />
   <Products />
