@@ -22,6 +22,16 @@ const router = createRouter({
       name: 'aboutComposition',
       component: () => import('../views/AboutComposition.vue'),
     },
+    {
+      path: '/sweet-options',
+      name: 'sweetOptions',
+      component: () => import('../views/SweetOptions.vue'),
+    },
+    {
+      path: '/sweet-composition',
+      name: 'sweetComposition',
+      component: () => import('../views/SweetComposition.vue'),
+    },
   ],
 })
 

@@ -1,17 +1,16 @@
 <template>
+  <h2 class="mb-4">我是 About</h2>
+  
+  <p>姓名：{{ name }}</p>
+  <p>打招呼：{{ hello }}</p>
+  <p>我現在有 {{ wallet }} 元</p>
+  <p>我的薪水是 {{ salary }} 元</p>
+
+  <br />
+
   <div>
-    <h2>我是 About</h2>
-    <p>姓名：{{ name }}</p>
-    <p>打招呼：{{ hello }}</p>
-    <p>我現在有 {{ wallet }} 元</p>
-    <p>我的薪水是 {{ salary }} 元</p>
-  
-    <br />
-  
-    <div>
-      <button type="button" @click="receiveSalary">領薪水嘍</button>&nbsp;&nbsp;
-      <button type="button" @click="reset">還原</button>
-    </div>
+    <button type="button" @click="receiveSalary">領薪水嘍</button>&nbsp;&nbsp;
+    <button type="button" @click="reset">還原</button>
   </div>
 </template>
 

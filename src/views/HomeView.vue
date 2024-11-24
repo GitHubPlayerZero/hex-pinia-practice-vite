@@ -8,6 +8,7 @@ export default {
     console.log(`[data] userStore ==>`, userStore);
 
     return {
+      name: userStore.name,
       wallet: userStore.wallet,
     };
   },
@@ -20,7 +21,9 @@ export default {
 
 <template>
   <main>
+    <p>姓名：{{ name }}</p>
     <p>資產：{{ wallet }} 元</p>
+    <hr class="mb-4">
     <TheWelcome />
   </main>
 </template>

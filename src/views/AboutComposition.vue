@@ -1,24 +1,23 @@
 <template>
+  <h2 class="mb-4">我是 About (Composition)</h2>
+  
+  <p>姓名：{{ userStore.name }} ({{ name }})</p>
+  <p>打招呼：{{ userStore.hello }} ({{ hello }})</p>
+  <p>我現在有 {{ userStore.wallet }} 元 ({{ wallet }})</p>
+  <p>我的薪水是 {{ userStore.salary }} 元</p>
+
+  <br />
+
   <div>
-    <h2>我是 About (Composition)</h2>
-    <p>姓名：{{ userStore.name }} ({{ name }})</p>
-    <p>打招呼：{{ userStore.hello }} ({{ hello }})</p>
-    <p>我現在有 {{ userStore.wallet }} 元 ({{ wallet }})</p>
-    <p>我的薪水是 {{ userStore.salary }} 元</p>
+    <!-- 可以直接使用 userStore 裡的方法，也可以使用解構出來的方法 -->
+    <!-- <button type="button" @click="userStore.receiveSalary">領薪水嘍</button>&nbsp;&nbsp; -->
+    <button type="button" @click="receiveSalary">領薪水嘍</button>&nbsp;&nbsp;
 
-    <br />
+    <button type="button" @click="pay">支出 $30</button>&nbsp;&nbsp;
+    <button type="button" @click="increaseSalary">加薪 $50</button>&nbsp;&nbsp;
 
-    <div>
-      <!-- 可以直接使用 userStore 裡的方法，也可以使用解構出來的方法 -->
-      <!-- <button type="button" @click="userStore.receiveSalary">領薪水嘍</button>&nbsp;&nbsp; -->
-      <button type="button" @click="receiveSalary">領薪水嘍</button>&nbsp;&nbsp;
-
-      <button type="button" @click="pay">支出 $30</button>&nbsp;&nbsp;
-      <button type="button" @click="increaseSalary">加薪 $50</button>&nbsp;&nbsp;
-
-      <button type="button" @click="updateData">$patch 更改資料</button>&nbsp;&nbsp;
-      <button type="button" @click="reset">$reset 還原</button>&nbsp;&nbsp;
-    </div>
+    <button type="button" @click="updateData">$patch 更改資料</button>&nbsp;&nbsp;
+    <button type="button" @click="reset">$reset 還原</button>&nbsp;&nbsp;
   </div>
 </template>
 
