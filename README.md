@@ -8,5 +8,5 @@
 - Composition API：[Page](http://localhost:5173/hex-pinia-practice-vite/about-composition)｜[Repo](https://github.com/GitHubPlayerZero/hex-pinia-practice-vite/blob/main/src/views/AboutComposition.vue)
 
 ## 購物車練習
-- Options API：[Page](https://githubplayerzero.github.io/hex-pinia-practice-vite/sweet-options)｜[Repo](https://github.com/GitHubPlayerZero/hex-pinia-practice-vite/blob/main/src/views/SweetOptions.vue)
-- Composition API：[Page](https://githubplayerzero.github.io/hex-pinia-practice-vite/sweet-composition)｜[Repo](https://github.com/GitHubPlayerZero/hex-pinia-practice-vite/blob/main/src/views/SweetComposition.vue)
+- Options API：[Repo](https://github.com/GitHubPlayerZero/hex-pinia-practice-vite/blob/main/src/views/SweetOptions.vue)
+- Composition API：[Repo](https://github.com/GitHubPlayerZero/hex-pinia-practice-vite/blob/main/src/views/SweetComposition.vue)
