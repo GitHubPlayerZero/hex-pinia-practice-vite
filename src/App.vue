@@ -20,6 +20,17 @@ import { RouterLink, RouterView } from 'vue-router';
   </div>
 </template>
 
+<style lang="scss">
+// Font Awesome
+$fa-font-path: '/node_modules/@fortawesome/fontawesome-free/webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+
+// Bootstrap
+@import 'bootstrap/dist/css/bootstrap';
+</style>
+
 <style lang="scss" scoped>
 .nav a {
   display: inline-block;

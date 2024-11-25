@@ -1,5 +1,3 @@
-import './assets/myStyle.scss';
-
 // Bootstrap
 import 'bootstrap';
 
