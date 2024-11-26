@@ -5,8 +5,7 @@ import { RouterLink, RouterView } from 'vue-router';
 <template>
   <nav class="nav mt-2">
     <div class="container">
-      <RouterLink to="/">Home</RouterLink>｜
-      <RouterLink to="/about">About</RouterLink>｜
+      <RouterLink to="/">Home</RouterLink>｜ <RouterLink to="/about">About</RouterLink>｜
       <RouterLink to="/about-composition">About (Composition)</RouterLink>｜
       <RouterLink to="/sweet-options">甜點購物（Options API）</RouterLink>｜
       <RouterLink to="/sweet-composition">甜點購物（Composition API）</RouterLink>｜
@@ -21,14 +20,18 @@ import { RouterLink, RouterView } from 'vue-router';
 </template>
 
 <style lang="scss">
+// Bootstrap
+@use 'bootstrap/dist/css/bootstrap';
+
 // Font Awesome
 $fa-font-path: '/node_modules/@fortawesome/fontawesome-free/webfonts';
-@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import '@fortawesome/fontawesome-free/scss/solid.scss';
-@import '@fortawesome/fontawesome-free/scss/regular.scss';
-
-// Bootstrap
-@import 'bootstrap/dist/css/bootstrap';
+// @import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+// @import '@fortawesome/fontawesome-free/scss/solid.scss';
+@use '@fortawesome/fontawesome-free/scss/fontawesome';
+// 需要在使用到的樣式設定變數配置
+@use '@fortawesome/fontawesome-free/scss/solid' with (
+  $fa-font-path: $fa-font-path
+);
 </style>
 
 <style lang="scss" scoped>
